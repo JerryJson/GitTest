@@ -19,6 +19,10 @@ Handler在开发中的使用场景不算少，直接new一个Handler对象，Han
 
 ![image-20190625163720484](/Users/zhangjie/Library/Application Support/typora-user-images/image-20190625163720484.png)
 
+![reward](images/打赏  @3x.png)
+
+![topic](images/话题@3x.png)
+
 ```java
 Handler handler = new Handler(){
   @Override
