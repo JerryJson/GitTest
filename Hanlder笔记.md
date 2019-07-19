@@ -110,6 +110,8 @@ Looper.myLooper()?.quitSafely()
 
 ![image-20190626140310511](/Users/zhangjie/Library/Application Support/typora-user-images/image-20190626140310511.png)
 
+![测试图片](https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1718395925,3485808025&fm=27&gp=0.jpg)
+
 上面就是我们平常使用Handler发送消息时使用的方法。
 
 ```java
@@ -358,5 +360,7 @@ new Handler(Looper.getMainLooper()).post(new Runnable() {
     }
 });
 ```
+
+
 
 至于最终为什么loop内部的这个死循环没有引发主线程的ANR的原因，以后有机会再
